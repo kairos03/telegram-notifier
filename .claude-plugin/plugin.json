@@ -1,0 +1,25 @@
+{
+  "name": "telegram-notifier",
+  "version": "1.0.0",
+  "description": "Send Telegram notifications for Claude Code Stop and Notification hooks",
+  "author": {
+    "name": "kairos9603",
+    "email": "kairos9603@gmail.com",
+    "url": "https://github.com/kairos9603"
+  },
+  "homepage": "https://github.com/kairos9603/telegram-notifier",
+  "repository": "https://github.com/kairos9603/telegram-notifier",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "telegram",
+    "notification",
+    "hook",
+    "messaging",
+    "alerts"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "hooks": "./hooks/hooks.json"
+}

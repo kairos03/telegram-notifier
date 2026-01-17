@@ -1,0 +1,26 @@
+{
+  "name": "telegram-notifier",
+  "version": "1.0.0",
+  "description": "Claude Code Telegram notification plugin",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "claude-code",
+    "telegram",
+    "notification",
+    "hook"
+  ],
+  "author": "kairos9603",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
