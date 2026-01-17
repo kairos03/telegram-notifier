@@ -1,0 +1,24 @@
+{
+  "name": "telegram-notifier-marketplace",
+  "owner": {
+    "name": "kairos03",
+    "email": "kairos9603@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code Telegram Notifier Plugin",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "telegram-notifier",
+      "source": "./",
+      "description": "Send Telegram notifications for Claude Code Stop and Notification hooks",
+      "version": "1.0.0",
+      "author": {
+        "name": "kairos03",
+        "email": "kairos9603@gmail.com"
+      },
+      "keywords": ["telegram", "notification", "hook", "claude-code", "messaging", "alerts"]
+    }
+  ]
+}
